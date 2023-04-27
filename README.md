@@ -6,7 +6,7 @@ class Attributes("Josh Falkiner"):
 	@staticmethod
 	def socials() -> tuple:
 		twitter = "/JoshFalkiner"
-		linkedin = "/joshua-falkiner"
+		linkedin = "/in/joshua-falkiner"
       
 	    return twitter, linkedin
 	
