@@ -1,4 +1,5 @@
-
+### Welcome to my GitHub! 😎
+&darr;&darr; You can find a little bit about me below &darr;&darr;
 ```python
 from datetime import datetime
 
@@ -66,3 +67,4 @@ class AboutMe():
 
 ```
 
+**DISCLAIMER**: Most of my previous work is not on GitHub due to the confidential nature of the company employing me. *Feel free to get in touch!*
