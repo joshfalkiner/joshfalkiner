@@ -5,8 +5,8 @@ from datetime import datetime
 class Attributes("Josh Falkiner"):
 	@staticmethod
 	def socials() -> tuple:
-	    twitter = "/JoshFalkiner"
-	    linkedin = "/joshua-falkiner"
+		twitter = "/JoshFalkiner"
+		linkedin = "/joshua-falkiner"
       
 	    return twitter, linkedin
 	
@@ -26,7 +26,7 @@ class Attributes("Josh Falkiner"):
 			'learning': ['Scala', 'C++']
 		}
 		specialities = ['data science', 'web development', 'building applications', 'data viz']
-    	interests = ['InfoSec', 'Network and graph analysis', 'Finance', 'Building great products']
+    		interests = ['InfoSec', 'Network and graph analysis', 'Finance', 'Building great products']
 		
 		return langs, specialities, interests
 	
@@ -40,7 +40,7 @@ class Attributes("Josh Falkiner"):
  	@staticmethod
 	def sourcery() -> tuple:
 	  	position = 'Co-Founder'
-	  	start = datetime(2022, 6, 1)
+	  	start = datetime(2022, 6, 1).strftime('%Y%m%d')
 	  	end = None
 	  	current = True
     
@@ -48,18 +48,18 @@ class Attributes("Josh Falkiner"):
   
   	@staticmethod
   	def cannot_reveal_name() -> tuple:
-    	position = 'Data Scientist'
-    	start = datetime(2021, 2, 1).strftime('%Y%m%d')
-   		end = datetime(2023, 1, 1).strftime('%Y%m%d')
-   		current = False
-    
-   		return position, start, end, current
+		position = 'Data Scientist'
+		start = datetime(2021, 2, 1).strftime('%Y%m%d')
+		end = datetime(2023, 1, 1).strftime('%Y%m%d')
+		current = False
+
+		return position, start, end, current
    
   	@staticmethod
   	def trucksters() -> tuple:
-	    position = 'Data Science intern'
+	    	position = 'Data Science intern'
 	   	start = datetime(2020, 6, 1).strftime('%Y%m%d')
-	    end = datetime(2022, 2, 1).strftime('%Y%m%d')
+	    	end = datetime(2022, 2, 1).strftime('%Y%m%d')
 	   	current = False
 
 	   	return position, start, end, current
